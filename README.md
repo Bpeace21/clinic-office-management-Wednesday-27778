@@ -98,7 +98,7 @@ Base URL: `http://localhost:8080/api/offices`
 
 ### 1. Database
 1. Start the PostgreSQL service.
-2. In pgAdmin, create an **empty** database named `clinic_db`.
+2. In pgAdmin, create an **empty** database named `clinic_db2`.
 3. Open `clinicSystem/src/main/resources/application.properties` and set your own PostgreSQL password:
    ```properties
    spring.datasource.url=jdbc:postgresql://localhost:5432/clinic_db
